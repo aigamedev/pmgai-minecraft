@@ -15,15 +15,12 @@
 			["pypi", "numpy", "Cython"],
 			["wheel", "https://github.com/aigamedev/pymclevel/releases/download/0.1/", "pymclevel-0.1"],
 			["github", "aigamedev/pymcworldgen.git", "becc302256997075ab7b8e1d3fd29bf034072c49"],
-			
-			["github", "mapcrafter/mapcrafter.git", "75cad59ffa6895dfe65d07ad32e8db4f62c38bf4"],
 			["extract", "https://github.com/speedingdeer/mapcrafter/releases/download/courses-princples/","mapcrafter", "mapcrafter"],
-                        ["fetch", "http://courses.nucl.ai/packages/island.conf", "island.conf"]
 		]
     },		
 	"demo": [
 		["del", "output/nuclai.world"],
-		["exec", "pymcworldgen/mcworldgen.py"],
+		["exec", "common/pymcworldgen/mcworldgen.py"],
 		["exec", "mapcrafter/mapcrafter", "-c", "island.conf"],
 		["open", "output/nuclai.view/index.html"]
 	]
