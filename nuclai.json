@@ -21,7 +21,7 @@
 	"demo": [
 		["del", "output/nuclai.world"],
 		["exec", "pymcworldgen/mcworldgen.py"],
-		["exec", "mapcrafter/mapcrafter", "-c", "island.conf"],
+		["exec", "./mapcrafter.sh"],
 		["open", "output/nuclai.view/index.html"]
 	]
 }
