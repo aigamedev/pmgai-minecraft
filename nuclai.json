@@ -15,7 +15,7 @@
 			["pypi", "numpy", "Cython"],
 			["wheel", "https://github.com/aigamedev/pymclevel/releases/download/0.1/", "pymclevel-0.1"],
 			["github", "aigamedev/pymcworldgen.git", "becc302256997075ab7b8e1d3fd29bf034072c49"],
-			["extract", "https://github.com/speedingdeer/mapcrafter/releases/download/courses-princples/","mapcrafter", "mapcrafter"]
+			["extract", "https://github.com/aigamedev/mapcrafter/releases/download/v.2.1/","v.2.1", "mapcrafter"]
 		]
     },		
 	"demo": [
