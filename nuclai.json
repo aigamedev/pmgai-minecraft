@@ -1,18 +1,12 @@
 {
-        "version": "0.5",
+    "version": "0.5",
 	"install": {
 		"windows": [
-			["pypi", "numpy", "Cython"],
 			["wheel", "https://github.com/aigamedev/pymclevel/releases/download/0.1/", "pymclevel-0.1"],
 			["github", "aigamedev/pymcworldgen.git", "becc302256997075ab7b8e1d3fd29bf034072c49"],
-			
-			["fetch", "http://mapcrafter.org/windows/main/mapcrafter_2.1_win64.zip", "mapcrafter_2.1_win64.zip"],
-			["extract", "mapcrafter_2.1_win64.zip", "mapcrafter"],
-
-			["fetch", "http://courses.nucl.ai/packages/nuclai.conf", "mapcrafter/nuclai.conf"]
+			["extract", "https://github.com/aigamedev/mapcrafter/releases/download/v.2.1/", "mapcrafter"]
 		],
 		"osx": [
-			["pypi", "numpy", "Cython"],
 			["wheel", "https://github.com/aigamedev/pymclevel/releases/download/0.1/", "pymclevel-0.1"],
 			["github", "aigamedev/pymcworldgen.git", "becc302256997075ab7b8e1d3fd29bf034072c49"],
 			["extract", "https://github.com/aigamedev/mapcrafter/releases/download/v.2.1/", "mapcrafter"]
@@ -21,7 +15,7 @@
 	"demo": [
 		["del", "output/nuclai.world"],
 		["exec", "pymcworldgen/mcworldgen.py"],
-		["exec", "./mapcrafter.sh"],
+		["script", "mapcrafter"],
 		["open", "output/nuclai.view/index.html"]
 	]
 }

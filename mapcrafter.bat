@@ -1,0 +1,1 @@
+start mapcrafter/mapcrafter -c island.conf
