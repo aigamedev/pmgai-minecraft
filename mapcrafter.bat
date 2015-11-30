@@ -1,1 +1,1 @@
-start mapcrafter/mapcrafter -c island.conf
+start /wait mapcrafter/mapcrafter -c island.conf
