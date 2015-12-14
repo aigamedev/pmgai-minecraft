@@ -9,7 +9,7 @@
 	},
 	"demo": [
 		["del", "output/nuclai.world"],
-		["exec", "pymcworldgen/mcworldgen.py"],
+		["exec", "main.py"],
 		["script", "mapcrafter"],
 		["open", "output/nuclai.view/index.html"]
 	]
